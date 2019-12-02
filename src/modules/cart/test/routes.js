@@ -10,6 +10,7 @@ var request = require("supertest"),
 
 var credentials, token, mockup;
 
+
 describe("Cart CRUD routes tests case simple product", function() {
   before(function(done) {
     mockup = {
